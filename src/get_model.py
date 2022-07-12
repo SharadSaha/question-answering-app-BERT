@@ -4,6 +4,7 @@ import yaml
 import argparse
 import numpy as np
 import tensorflow as tf
+import path
 from model import read_params,get_FineTunedBERT
 
 def read_params(config_path):
@@ -14,7 +15,9 @@ def read_params(config_path):
 
 def load_BERT_model(config_path):
     config = read_params(config_path)
-    weights_path = "../" + os.path.join(config['model_dir'],'weights.h5')
+    directory = path.Path(__file__).abspath()
+
+    weights_path = os.path.join(directory.parent,config['model_dir'],'weights.h5')
     print("Model path : ",weights_path)
     model,vocab_file = get_FineTunedBERT()
     model.load_weights(weights_path)

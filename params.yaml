@@ -1,0 +1,6 @@
+base:
+  project: question-answering-app-BERT
+  random_state: 200
+  
+
+model_dir: saved_models
