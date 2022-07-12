@@ -32,14 +32,16 @@ with right_column:
 
 st.markdown("""---""")
 
+from PIL import Image
+directory = path.Path(__file__).abspath()
+img_path1 = os.path.join(directory.parent.parent,'images','bert.png')
+image1 = Image.open(img_path1)
+img_path2 = os.path.join(directory.parent.parent,'images','text.png')
+image2 = Image.open(img_path2)
 
 left_column, right_column = st.columns(2)
 with left_column:
-    directory = path.Path(__file__).abspath()
-    img_path = os.path.join(directory.parent,'images','wordcloud.png')
-    st.image(img_path)
+    st.image(image1,width=350)
 
 with right_column:
-    directory = path.Path(__file__).abspath()
-    img_path = os.path.join(directory.parent.parent,'images','wordcloud.png')
-    st.image(img_path)
+    st.image(image2,width=280)
