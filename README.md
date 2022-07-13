@@ -7,8 +7,6 @@ answers based on the text/document.
 
 
 ## Demo
-
-[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://github.com/SharadSaha/question-answering-app-BERT/blob/main/src/images/QueryHELP.mp4)
 https://github.com/SharadSaha/question-answering-app-BERT/blob/main/src/images/QueryHELP.mp4
 
 
