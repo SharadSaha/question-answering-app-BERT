@@ -7,10 +7,9 @@ answers based on the text/document.
 
 
 ## Demo
-https://github.com/SharadSaha/question-answering-app-BERT/blob/main/src/images/QueryHELP.mp4
 
+https://user-images.githubusercontent.com/76741905/178744485-28c3267e-6d88-433d-9c56-f690fc672f48.mp4
 
-https://user-images.githubusercontent.com/76741905/178741956-acd08c98-04aa-485d-9710-16a0b5beee0c.mp4
 
 
 
