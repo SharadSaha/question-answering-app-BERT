@@ -42,7 +42,7 @@ class ModelParams:
 
 def get_FineTunedBERT():
 
-    url = "https://tfhub.dev/tensorflow/bert_en_uncased_L-12_H-768_A-12/2"
+    url = "https://hub.tensorflow.google.cn/tensorflow/bert_en_uncased_L-12_H-768_A-12/2"
     max_seq_length = 399
     vocab_file,bert_layer,pooled_output,sequence_output,input_word_ids, input_mask, segment_ids = load_BERT(url,max_seq_length,True)
     params = ModelParams()
